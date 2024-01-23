@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <script>
+        let sendok = 9000;
+        let garpu = 50000;
+        let piring = 100000;
+
+        let totalharga = sendok + garpu + piring
+
+        if (totalharga > 100000) {
+            let diskon = 10/100 * totalharga;
+            let setelahdiskon = totalharga - diskon;
+
+            console.log ("total belanjaan adalah" + totalharga)
+            console.log ("karena balannja lebih besar dari 100000, mendapatkan diskon 10% menjadi" + totalharga)
+        }
+
+        else{
+            console.log ("total belanjaan anda tidak mendapatkan diskon" + totalharga)
+        }
+    </script>
+</body>
+</html>
